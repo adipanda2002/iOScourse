@@ -204,7 +204,7 @@
                         <outlet property="tenPctButton" destination="7y6-Kf-yF0" id="g4Y-9h-ELW"/>
                         <outlet property="twentyPctButton" destination="UtR-dU-EKt" id="s3a-ko-wx1"/>
                         <outlet property="zeroPctButton" destination="XzR-0E-Xf7" id="iJt-wN-rZR"/>
-                        <segue destination="Dnf-m2-FPm" kind="presentation" id="tcb-x1-4ts"/>
+                        <segue destination="Dnf-m2-FPm" kind="presentation" identifier="goToResults" id="lkW-9S-PgK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -219,7 +219,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZCe-Te-efL">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZCe-Te-efL" customClass="Results">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="300"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="56.32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLJ-ii-hft">
