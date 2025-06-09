@@ -1,0 +1,21 @@
+# Xcode
+DerivedData/
+build/
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/
+
+# Secrets
+Secrets.xcconfig
+
+# Misc
+*.xcuserstate
+*.DS_Store
+
