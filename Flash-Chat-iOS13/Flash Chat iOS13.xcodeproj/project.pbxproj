@@ -19,7 +19,6 @@
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
 		0B62819E235F0F4D00E35CAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B62819D235F0F4D00E35CAF /* README.md */; };
 		A1BFE7B52DFDB6EE00BF76AA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A1BFE7B42DFDB6EE00BF76AA /* .gitignore */; };
-		A1BFE7B72DFDB78300BF76AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1BFE7B62DFDB78300BF76AA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +38,6 @@
 		30673F5D221D670F129D7C41 /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
 		867889744CBC2F742D86E33D /* Pods_Flash_Chat_iOS13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BFE7B42DFDB6EE00BF76AA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		A1BFE7B62DFDB78300BF76AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,6 @@
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
-				A1BFE7B62DFDB78300BF76AA /* GoogleService-Info.plist */,
 			);
 			path = "Flash Chat iOS13";
 			sourceTree = "<group>";
@@ -198,7 +195,6 @@
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
 				A1BFE7B52DFDB6EE00BF76AA /* .gitignore in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
-				A1BFE7B72DFDB78300BF76AA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
