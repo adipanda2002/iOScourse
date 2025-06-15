@@ -24,6 +24,7 @@
 		A1BFE7BF2DFE78CA00BF76AA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BFE7BE2DFE78CA00BF76AA /* Message.swift */; };
 		A1BFE7C22DFE7BD200BF76AA /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BFE7C02DFE7BD200BF76AA /* MessageCell.swift */; };
 		A1BFE7C32DFE7BD200BF76AA /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BFE7C12DFE7BD200BF76AA /* MessageCell.xib */; };
+		A1C574A42DFEA27700B7DFCD /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A1C574A32DFEA27700B7DFCD /* IQKeyboardManagerSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				000EC5D15F26653B7CDAFBAA /* Pods_Flash_Chat_iOS13.framework in Frameworks */,
+				A1C574A42DFEA27700B7DFCD /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +193,9 @@
 				Base,
 			);
 			mainGroup = 0B62816A235DEE8100E35CAF;
+			packageReferences = (
+				A1C574A22DFEA27700B7DFCD /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 0B628174235DEE8100E35CAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -472,6 +477,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1C574A22DFEA27700B7DFCD /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1C574A32DFEA27700B7DFCD /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1C574A22DFEA27700B7DFCD /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B62816B235DEE8100E35CAF /* Project object */;
 }
